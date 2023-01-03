@@ -16,4 +16,9 @@ $L\propto \log N$
 Testing to see if a small-world network could be constructed using the personal familiarity of all people would certainly be an impossible task. However, social media may offer a parallel which is much more quantifiable. Reddit is a site where users post content and have discussions accross many sectionalized communities called 'subreddits.' These communities span a wide bredth of topics and interests and attract users from all walks of life. This project aims to quantify the connectivity of these communities.
 
 ## Methodology
-In this project subreddits are modeled as nodes and users serve the role of edges. Using the 
+In this project subreddits are modeled as nodes and users serve the role of edges. Data was aggregated from Reddit in Python utilizing the PSAW wrapper for the Pushshift API.
+
+An arbitrary starting node 'r/AskReddit' was selected to begin the search and from this community the authors of the 5 most recent posts were collected. The 25 most recent posts from each author were collected and for every unvisited subreddit a new node was created with an edge to the parent node. From each node was collected the 5 most recent posts and the process repeated until data was aggregated for communities with 6 degrees of separation.
+
+The collected data was cleaned and structured in Python into a single graphml file for visualization using Gephi. 
+
