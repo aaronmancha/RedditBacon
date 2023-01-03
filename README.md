@@ -13,7 +13,7 @@ Small-world networks serve as an intuitively useful mathematical model for these
 
 $L\propto \log N$
 
-Testing to see if a small-world network could be constructed using the personal familiarity of all people would certainly be an impossible task. However, social media may offer a parallel which is much more quantifiable. Reddit is a site where users post content and have discussions accross many sectionalized communities called 'subreddits.' These communities span a wide bredth of topics and interests and attract users from all walks of life.
+Testing to see if a small-world network could be constructed using the personal familiarity of all people would certainly be an impossible task. However, social media may offer a parallel which is much more quantifiable. Reddit is a site where users post content and have discussions accross many sectionalized communities called 'subreddits.' These communities span a wide bredth of topics and interests and attract users from all walks of life. This project aims to quantify the connectivity of these communities.
 
 ## Methodology
 In this project subreddits are modeled as nodes and users serve the role of edges. Using the 
